@@ -1,6 +1,6 @@
 import './Navbar.css'
  
-export const Navbar = () => {
+const Navbar = () => {
   return(
     <nav>
       <h1>
@@ -9,3 +9,5 @@ export const Navbar = () => {
     </nav>
   )
 }
+
+export default Navbar
